@@ -18,7 +18,7 @@ def freestyle():
 
 @ask.intent("UselessIntent")
 def tester():
-	text = "If this works I'll streak across this fucking campus."
+	text = "Tester statement."
 	return statement(text)
 
 
